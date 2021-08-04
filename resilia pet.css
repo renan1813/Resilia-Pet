@@ -92,3 +92,15 @@ body{
     font-size: 38px;
     color: #FFFFFF;
 }
+
+@keyframes fundoPretoBranco{
+    0% {background-color: red;}
+    50% {background-color: green;}
+    100% {background-color: blue;}
+}
+
+.fundoRGB:hover{
+    animation-name: fundoPretoBranco;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}

@@ -53,6 +53,18 @@ header{
     margin-bottom: 15px;
 }
 
+.petName{
+    font-size: 32px;
+    text-align: center;
+    opacity: 0;
+}
+
+.petDesc{
+    font-size: 28px;
+    text-align: center;
+    opacity: 0;
+}
+
 .pet01{
     background-image: url(./dog01.png);
 }
@@ -118,20 +130,38 @@ footer{
     color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
-}
-
-footer>.p01{
-    /*width: 100%;
-    height: 46px;*/
-    text-align: center;
+    align-items: flex-end;
 }
 
 footer>.p02{
     font-size: 14px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-   /* width: 100%;
-    height: 24px;*/
-    align-self: flex-end;
+    order: -1;
+}
+
+footer>.p03{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tables:hover>.petName{
+    opacity: 1;
+}
+
+.tables:hover>.petDesc{
+    opacity: 1;
+}
+
+@keyframes fundoPretoBranco{
+    0% {background-color: red;}
+    50% {background-color: green;}
+    100% {background-color: blue;}
+}
+
+.fundoRGB:hover{
+    animation-name: fundoPretoBranco;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
