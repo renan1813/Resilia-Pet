@@ -1,4 +1,4 @@
-@media screen and (max-width: 812px){
+@media (max-width: 812px){
     .header{
         width: 100%;
         font-size: 24px;
@@ -12,8 +12,24 @@
     .header>nav{
         display: none;
     }
-    .header>p{
-        display: block;
+    .header>label{
+        display: flex;
+    }
+    .nav02,.nav03{
+        height: 40px;
+        font-size: 18px;
+        width: 100%;
+    }
+    #menu:checked~.navH{
+        display: flex;
+        position: absolute;
+        flex-flow: column wrap;
+        height: 120px;
+        width: 200px;
+        top: 70px;
+        background-color: #000000;
+        padding: 10px;
+        right: 0;
     }
 
     .inicio{
