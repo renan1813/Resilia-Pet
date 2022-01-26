@@ -24,7 +24,7 @@ main{
 }
 
 .div01{
-    background-image: url(./background.jfif);
+    background-image: url(../assets/background/background.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -185,47 +185,47 @@ header>input{
 }
 
 .pet01{
-    background-image: url(./dog01.png);
+    background-image: url(../assets/images/dog01.png);
 }
 
 .pet02{
-    background-image: url(./cat01.png);
+    background-image: url(../assets/images/cat01.png);
 }
 
 .pet03{
-    background-image: url(./cat02.png);
+    background-image: url(../assets/images/cat02.png);
 }
 
 .pet04{
-    background-image: url(./dog02.png);
+    background-image: url(../assets/images/dog02.png);
 }
 
 .pet05{
-    background-image: url(./cat03.png);
+    background-image: url(../assets/images/cat03.png);
 }
 
 .pet06{
-    background-image: url(./cat04.png);
+    background-image: url(../assets/images/cat04.png);
 }
 
 .pet07{
-    background-image: url(./dog03.png);
+    background-image: url(../assets/images/dog03.png);
 }
 
 .pet08{
-    background-image: url(./cat05.png);
+    background-image: url(../assets/images/cat05.png);
 }
 
 .pet09{
-    background-image: url(./cat06.png);
+    background-image: url(../assets/images/cat06.png);
 }
 
 .pet10{
-    background-image: url(./dog04.png);
+    background-image: url(../assets/images/dog04.png);
 }
 
 .pet11{
-    background-image: url(./dog05.png);
+    background-image: url(../assets/images/dog05.png);
 }
 
 .adotar02{
